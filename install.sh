@@ -16,7 +16,7 @@ rm ~/.zshrc
 rm ~/.oh-my-zsh/themes/omarshammas.zsh-theme
 
 echo 'Symlinking Files'
-DOTFILES=~/Github/dotomar
+DOTFILES=~/Github/dotfiles
 ln -s $DOTFILES/gitconfig ~/.gitconfig
 ln -s $DOTFILES/gitignore ~/.gitignore
 ln -s $DOTFILES/tmux.conf ~/.tmux.conf
