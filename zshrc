@@ -37,5 +37,8 @@ unsetopt correct_all
 # Customize to your needs...
 export TERM='xterm-256color'
 
+# Setup Node.js
+export NODE_PATH=/usr/local/lib/node_modules
+
 #source /usr/local/bin/virtualenvwrapper.sh
 #export PATH=/Users/omar/.rvm/gems/ruby-1.9.3-p327/bin:/Users/omar/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/omar/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/omar/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin
