@@ -29,7 +29,7 @@ ZSH_THEME="omarshammas"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rvm ruby rails redis-cli pip python tmux)
+plugins=(git rvm ruby redis-cli pip python tmux postgres)
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
@@ -37,8 +37,20 @@ unsetopt correct_all
 # Customize to your needs...
 export TERM='xterm-256color'
 
-# Setup Node.js
-export NODE_PATH=/usr/local/lib/node_modules
+# RVM
+source $HOME/.rvm/scripts/rvm
 
-#source /usr/local/bin/virtualenvwrapper.sh
-#export PATH=/Users/omar/.rvm/gems/ruby-1.9.3-p327/bin:/Users/omar/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/omar/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/omar/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin
+# Setup Node.js
+#export NODE_PATH=/usr/local/lib/node_modules
+
+# Setup Go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+
+# Python / Virtual Envs
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
+# postgresql.app
+export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH

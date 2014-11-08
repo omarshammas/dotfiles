@@ -32,7 +32,10 @@ set smartcase               " ... Unless they contain at least one capital lette
 
 " Mappings
 nmap <F2> :NERDTreeToggle<CR>   " Mapping F2 to NERDTreeToggle
-inoremap jj <ESC>           " Maps jj to ESC in insert mode, no need to stretch the left pinky
+inoremap jj <ESC>               " Maps jj to ESC in insert mode, no need to stretch the left pinky
 
 " Color Scheme
 colorscheme Tomorrow-Night  " Use the specified color scheme which can be found in .vim/colors directory
+
+" Markdown
+let g:vim_markdown_folding_disabled = 1
