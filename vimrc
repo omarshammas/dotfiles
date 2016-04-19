@@ -13,8 +13,9 @@ set nomodeline              " Disable model lines due to their security vulnerab
 " Vim Options
 set number                  " Show line number on the left
 set nowrap                  " Disable word wrap
-set tabstop=4 shiftwidth=4  " A tab is 4 spaces
+set tabstop=2 shiftwidth=2  " A tab is 4 spaces
 set expandtab               " Converts tabs into spaces
+"set noexpandtab               " Converts spaces into tabs
 "set laststatus=2           " Always show the statusline, check out powerline
 set cul                     " Highlights the current line
 set showmatch               " Show matching brackets 
@@ -35,7 +36,8 @@ nmap <F2> :NERDTreeToggle<CR>   " Mapping F2 to NERDTreeToggle
 inoremap jj <ESC>               " Maps jj to ESC in insert mode, no need to stretch the left pinky
 
 " Color Scheme
-colorscheme Tomorrow-Night  " Use the specified color scheme which can be found in .vim/colors directory
+"colorscheme Tomorrow-Night  " Use the specified color scheme which can be found in .vim/colors directory
+colorscheme Tomorrow  " Use the specified color scheme which can be found in .vim/colors directory
 
 " Markdown
 let g:vim_markdown_folding_disabled = 1

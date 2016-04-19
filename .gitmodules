@@ -19,3 +19,6 @@
 [submodule "vim/bundle/mustache"]
 	path = vim/bundle/mustache
 	url = https://github.com/mustache/vim-mustache-handlebars.git
+[submodule "vim/bundle/jinja2-syntax"]
+	path = vim/bundle/jinja2-syntax
+	url = git@github.com:Glench/Vim-Jinja2-Syntax.git
