@@ -49,9 +49,9 @@ export PATH=$PATH:$GOPATH/bin
 
 
 # Python / Virtual Envs
-export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
-export PYTHONDONTWRITEBYTECODE=1
+#export WORKON_HOME=$HOME/.virtualenvs
+#source /usr/local/bin/virtualenvwrapper.sh
+#export PYTHONDONTWRITEBYTECODE=1
 
 # postgresql.app
 export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
